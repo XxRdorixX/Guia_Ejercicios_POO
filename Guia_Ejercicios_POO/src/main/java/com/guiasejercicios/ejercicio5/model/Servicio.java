@@ -1,0 +1,45 @@
+/**
+ * Autor: Edgar José Mejia Hernández
+ * Fecha: 27/4/2025
+ */
+
+package com.guiasejercicios.ejercicio5.model;
+
+public class Servicio {
+    private int id;
+    private String tipo;
+    private double precio;
+
+    public Servicio() {
+    }
+
+    public Servicio(int id, String tipo, double precio) {
+        this.id = id;
+        this.tipo = tipo;
+        this.precio = precio;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+}
